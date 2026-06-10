@@ -1,0 +1,14 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+@font-face {
+  font-family: 'Gerbil';
+  src: url('./fonts/gerbil.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-gerbil: 'Gerbil', 'Segoe UI', Arial, sans-serif;
+  --font-satoshi: 'Satoshi', 'Segoe UI', Arial, sans-serif;
+}
